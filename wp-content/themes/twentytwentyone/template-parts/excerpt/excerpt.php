@@ -1,12 +1,5 @@
-<?php
-/**
- * Show the excerpt.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package WordPress
- * @subpackage Twenty_Twenty_One
- * @since Twenty Twenty-One 1.0
- */
-
-the_excerpt();
+<br>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function the_excerpt() in C:\xampp\htdocs\www.questbook.quest\wp-content\themes\twentytwentyone\template-parts\excerpt\excerpt.php:12
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\www.questbook.quest\wp-content\themes\twentytwentyone\template-parts\excerpt\excerpt.php</b> on line <b>12</b><br>

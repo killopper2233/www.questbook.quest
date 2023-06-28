@@ -1,11 +1,3 @@
-<?php
-/**
- * Title: Default Footer
- * Slug: twentytwentythree/footer-default
- * Categories: footer
- * Block Types: core/template-part/footer
- */
-?>
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
 	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|40"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
@@ -13,16 +5,11 @@
 		<!-- wp:site-title {"level":0} /-->
 		<!-- wp:paragraph {"align":"right"} -->
 		<p class="has-text-align-right">
-		<?php
-		printf(
-			/* Translators: WordPress link. */
-			esc_html__( 'Proudly powered by %s', 'twentytwentythree' ),
-			'<a href="' . esc_url( __( 'https://wordpress.org', 'twentytwentythree' ) ) . '" rel="nofollow">WordPress</a>'
-		)
-		?>
-		</p>
-		<!-- /wp:paragraph -->
-	</div>
-	<!-- /wp:group -->
+		<br>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function esc_html__() in C:\xampp\htdocs\www.questbook.quest\wp-content\themes\twentytwentythree\patterns\footer-default.php:19
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\www.questbook.quest\wp-content\themes\twentytwentythree\patterns\footer-default.php</b> on line <b>19</b><br>
+</p>
 </div>
-<!-- /wp:group -->
+</div>
