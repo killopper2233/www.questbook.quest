@@ -1,5 +1,21 @@
-<br>
-<b>Fatal error</b>:  Uncaught Error: Call to undefined function has_custom_logo() in C:\xampp\htdocs\www.questbook.quest\wp-content\themes\twentytwentyone\template-parts\header\site-header.php:11
-Stack trace:
-#0 {main}
-  thrown in <b>C:\xampp\htdocs\www.questbook.quest\wp-content\themes\twentytwentyone\template-parts\header\site-header.php</b> on line <b>11</b><br>
+<?php
+/**
+ * Displays the site header.
+ *
+ * @package WordPress
+ * @subpackage Twenty_Twenty_One
+ * @since Twenty Twenty-One 1.0
+ */
+
+$wrapper_classes  = 'site-header';
+$wrapper_classes .= has_custom_logo() ? ' has-logo' : '';
+$wrapper_classes .= ( true === get_theme_mod( 'display_title_and_tagline', true ) ) ? ' has-title-and-tagline' : '';
+$wrapper_classes .= has_nav_menu( 'primary' ) ? ' has-menu' : '';
+?>
+
+<header id="masthead" class="<?php echo esc_attr( $wrapper_classes ); ?>">
+
+	<?php get_template_part( 'template-parts/header/site-branding' ); ?>
+	<?php get_template_part( 'template-parts/header/site-nav' ); ?>
+
+</header><!-- #masthead -->

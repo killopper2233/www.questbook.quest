@@ -1,5 +1,18 @@
-<br>
-<b>Fatal error</b>:  Uncaught Error: Call to undefined function has_block() in C:\xampp\htdocs\www.questbook.quest\wp-content\themes\twentytwentyone\template-parts\excerpt\excerpt-gallery.php:13
-Stack trace:
-#0 {main}
-  thrown in <b>C:\xampp\htdocs\www.questbook.quest\wp-content\themes\twentytwentyone\template-parts\excerpt\excerpt-gallery.php</b> on line <b>13</b><br>
+<?php
+/**
+ * Show the appropriate content for the Gallery post format.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package WordPress
+ * @subpackage Twenty_Twenty_One
+ * @since Twenty Twenty-One 1.0
+ */
+
+// Print the 1st gallery found.
+if ( has_block( 'core/gallery', get_the_content() ) ) {
+
+	twenty_twenty_one_print_first_instance_of_block( 'core/gallery', get_the_content() );
+}
+
+the_excerpt();

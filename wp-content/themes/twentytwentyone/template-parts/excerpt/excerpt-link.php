@@ -1,5 +1,19 @@
-<br>
-<b>Fatal error</b>:  Uncaught Error: Call to undefined function has_block() in C:\xampp\htdocs\www.questbook.quest\wp-content\themes\twentytwentyone\template-parts\excerpt\excerpt-link.php:13
-Stack trace:
-#0 {main}
-  thrown in <b>C:\xampp\htdocs\www.questbook.quest\wp-content\themes\twentytwentyone\template-parts\excerpt\excerpt-link.php</b> on line <b>13</b><br>
+<?php
+/**
+ * Show the appropriate content for the Link post format.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package WordPress
+ * @subpackage Twenty_Twenty_One
+ * @since Twenty Twenty-One 1.0
+ */
+
+// Print the 1st instance of a paragraph block. If none is found, print the content.
+if ( has_block( 'core/paragraph', get_the_content() ) ) {
+
+	twenty_twenty_one_print_first_instance_of_block( 'core/paragraph', get_the_content() );
+} else {
+
+	the_content();
+}

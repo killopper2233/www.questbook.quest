@@ -1,5 +1,17 @@
-<br>
-<b>Fatal error</b>:  Uncaught Error: Call to undefined function is_active_sidebar() in C:\xampp\htdocs\www.questbook.quest\wp-content\themes\twentytwentyone\template-parts\footer\footer-widgets.php:10
-Stack trace:
-#0 {main}
-  thrown in <b>C:\xampp\htdocs\www.questbook.quest\wp-content\themes\twentytwentyone\template-parts\footer\footer-widgets.php</b> on line <b>10</b><br>
+<?php
+/**
+ * Displays the footer widget area.
+ *
+ * @package WordPress
+ * @subpackage Twenty_Twenty_One
+ * @since Twenty Twenty-One 1.0
+ */
+
+if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
+
+	<aside class="widget-area">
+		<?php dynamic_sidebar( 'sidebar-1' ); ?>
+	</aside><!-- .widget-area -->
+
+	<?php
+endif;

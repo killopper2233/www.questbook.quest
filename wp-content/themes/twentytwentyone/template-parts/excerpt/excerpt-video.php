@@ -1,5 +1,23 @@
-<br>
-<b>Fatal error</b>:  Uncaught Error: Call to undefined function get_the_content() in C:\xampp\htdocs\www.questbook.quest\wp-content\themes\twentytwentyone\template-parts\excerpt\excerpt-video.php:12
-Stack trace:
-#0 {main}
-  thrown in <b>C:\xampp\htdocs\www.questbook.quest\wp-content\themes\twentytwentyone\template-parts\excerpt\excerpt-video.php</b> on line <b>12</b><br>
+<?php
+/**
+ * Show the appropriate content for the Video post format.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package WordPress
+ * @subpackage Twenty_Twenty_One
+ * @since Twenty Twenty-One 1.0
+ */
+
+$content = get_the_content();
+
+if ( has_block( 'core/video', $content ) ) {
+	twenty_twenty_one_print_first_instance_of_block( 'core/video', $content );
+} elseif ( has_block( 'core/embed', $content ) ) {
+	twenty_twenty_one_print_first_instance_of_block( 'core/embed', $content );
+} else {
+	twenty_twenty_one_print_first_instance_of_block( 'core-embed/*', $content );
+}
+
+// Add the excerpt.
+the_excerpt();
