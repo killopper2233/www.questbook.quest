@@ -1,0 +1,295 @@
+.fotawp-swiper-holder li.wp-block-post {
+  display: none;
+}
+.fotawp-swiper-holder li.wp-block-post:first-child {
+  display: block;
+}
+.fotawp-dashboard .container {
+  position: relative;
+}
+.fotawp-dashboard {
+  display: inline-block;
+  width: 98.5%;
+  box-sizing: border-box;
+  padding: 0;
+  margin-top: 20px;
+  background: #fff;
+}
+.fotawp-dashboard .fotawp-dashboard-content {
+  padding: 10px 30px 0;
+}
+.fotawp-dashboard #fotawp-dashboard-tabs-nav {
+  padding: 15px 20px 0;
+  margin: 0;
+  position: relative;
+  background: #f4f4ff;
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+}
+.fotawp-dashboard #fotawp-dashboard-tabs-nav li {
+  display: inline-block;
+
+  margin: 0 10px 0 0;
+  position: relative;
+}
+
+.fotawp-dashboard #fotawp-dashboard-tabs-nav li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 18px 20px;
+  color: #55517a;
+  border-radius: 0;
+  display: inline-block;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  text-transform: uppercase;
+  transition: ease all 0.23s;
+}
+.fotawp-dashboard #fotawp-dashboard-tabs-nav li a:hover {
+  color: #574be8;
+}
+.fotawp-dashboard #fotawp-dashboard-tabs-nav li.active a {
+  background: #ffffff;
+  color: #574be8;
+  box-shadow: 0 -5px 6px rgba(0, 0, 0, 0.047);
+}
+.fotawp-dashboard #tabs-content {
+  padding: 20px;
+}
+
+.fotawp-dashboard-header {
+  background: #4b40c9;
+  color: #fff;
+  margin-bottom: 20px;
+  min-height: 220px;
+  display: flex;
+  align-items: center;
+}
+.fotawp-dashboard-header .theme-screen img {
+  width: 270px;
+  margin: 0 0 -4px;
+}
+.fotawp-dashboard-header .theme-screen {
+  padding: 40px 40px 0;
+}
+.fotawp-dashboard-header h1 {
+  color: #fff;
+  line-height: 40px;
+  font-size: 36px;
+  font-weight: 500;
+  max-width: 87%;
+  margin: 0 0 20px;
+}
+.welcome-buttons a {
+  background: #f6bb23;
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 10px 0 0;
+  padding: 13px 15px;
+  color: #fefefe;
+  border-radius: 5px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.welcome-buttons a:last-child {
+  background: #fff;
+  color: #7b7a87;
+}
+.fotawp-dashboard-header .theme-name {
+  display: flex;
+  align-items: center;
+}
+.theme-name span {
+  font-size: 16px;
+  font-weight: 300;
+  display: inline-block;
+  border-bottom: 1px solid;
+}
+.fotawp-dashboard-header .theme-name h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.fotawp-admin-notice.notice.notice-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-color: #3921ad;
+}
+.fotawp-admin-notice.notice.notice-info .theme-screen {
+  min-width: 25%;
+  text-align: center;
+}
+.fotawp-admin-notice.notice.notice-info .theme-screen img {
+  max-width: 270px;
+  margin: 20px 0 -4px;
+}
+.fotawp-admin-notice.notice.notice-info .info-content {
+  padding-left: 40px;
+  width: 75%;
+}
+.fotawp-admin-notice.notice.notice-info .info-content h2 {
+  font-size: 34px;
+  line-height: 42px;
+  margin: 0 0 20px;
+  font-weight: 600;
+  max-width: 85%;
+}
+.fotawp-admin-notice.notice.notice-info .info-content h6 {
+  font-size: 16px;
+  color: #3c25b0;
+  margin: 0 0 15px;
+  font-weight: 300;
+}
+.fotawp-admin-notice.notice.notice-info .info-content h3 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #717070;
+  margin: 0 0 35px;
+}
+.fotawp-admin-notice.notice.notice-info .info-content .admin-button.info-button {
+  background: #3921ad;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-right: 20px;
+  transition: all ease 0.23s;
+  font-size: 14px;
+  line-height: 30px;
+  min-height: 30px;
+}
+.fotawp-admin-notice.notice.notice-info .info-content .admin-button.info-button:hover {
+  background: #f6ba23;
+}
+.fotawp-admin-notice.notice.notice-info .info-content .admin-button.dismiss-notice.btn-notice-dismiss {
+  color: #afaaaa;
+  font-size: 16px;
+  transition: all ease 0.23s;
+}
+.fotawp-admin-notice.notice.notice-info .info-content .admin-button.dismiss-notice.btn-notice-dismiss:hover {
+  color: #f00;
+}
+.ticket-create {
+  background: #574be8;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+  border-radius: 3px;
+}
+.ticket-create:hover {
+  background: #f6ba23;
+  color: #fff;
+}
+.support-note {
+  color: #574be8;
+  font-style: italic;
+}
+
+.fotawp-admin-notice.notice.notice-info .info-content .admin-button.info-button.processing-spinner {
+  padding-right: 50px;
+  position: relative;
+}
+/*processing-spinner*/
+.fotawp-admin-notice.notice.notice-info .info-content .admin-button.info-button.processing-spinner:before {
+  content: "";
+  right: 5px;
+  top: 5px;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 4px solid #574be8;
+  display: inline-block;
+  border-radius: 50%;
+  box-sizing: border-box;
+  animation: processingLocader 1s ease-in infinite;
+}
+#fotawp-welcome h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+@keyframes processingLocader {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+.fotawp-dashboard #tabs-content #install-activate-button {
+  background: #7b86fa;
+  color: #fff;
+  font-size: 18px;
+  border-color: #7b86fa;
+  padding: 8px 35px;
+  border-radius: 10px;
+  transition: all ease 0.23s;
+  margin-bottom: 30px;
+}
+.fotawp-dashboard .highlight-text {
+  color: #7b86fa;
+  font-size: 16px;
+  font-weight: 500;
+}
+.fotawp-dashboard .plugin-list {
+  position: relative;
+  grid-template-columns: repeat(auto-fill, 273px);
+  display: grid;
+  column-gap: 25px;
+  margin-top: 25px;
+}
+.fotawp-dashboard .plugin-list .frp_holder {
+  border: 1px solid #ece7e7;
+  border-radius: 6px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  padding: 30px 0 15px 0;
+}
+.fotawp-dashboard .plugin-list .frp_holder img {
+  max-width: 250px;
+  margin-bottom: 15px;
+  width: auto;
+  height: 130px;
+  object-fit: cover;
+}
+.fotawp-dashboard a.frp_plugin_action {
+  background: #7b86fa;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 7px 13px;
+  border-radius: 4px;
+  transition: all ease 0.23s;
+  margin-top: 15px;
+}
+.fotawp-dashboard a.frp_plugin_action:hover,
+.fotawp-dashboard #tabs-content #install-activate-button:hover {
+  background: #f6ba23;
+}
+.plugin-list .frp_holder .frp_holder_footer {
+  border-top: 1px solid #ece7e7;
+}
+.fotawp-dashboard a.frp_plugin_action.activation-disabled {
+  background: #ededed;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#fotawp-comparision .more-button {
+  background-color: #4b40c9;
+  color: #fff;
+  text-decoration: none;
+  padding: 9px 20px;
+  display: inline-block;
+  border-radius: 5px;
+}
+#fotawp-comparision .more-button:hover {
+  background: #f6ba23;
+}
