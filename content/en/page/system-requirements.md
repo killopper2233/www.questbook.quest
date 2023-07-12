@@ -1,5 +1,5 @@
 ---
-author: Questbook Support
+author: Questbook Developer
 title: System Requirements for Questbook Embedded
 date: 2023-07-11
 description: System Requirements for Questbook Embedded.
