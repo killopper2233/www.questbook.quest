@@ -1,4 +1,4 @@
-baseurl = "https://www,questbook.quest"
+baseurl = "https://killopper2233.github.io"
 metaDataFormat = "yaml"
 title = "Questbook | Operating Environment for embedded devices"
 theme = "blist"
