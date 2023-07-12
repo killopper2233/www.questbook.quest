@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Questbook | Operating Environment for embedded devices</title>
+    <link>https://www.questbook.quest/en/page/</link>
+    <description>Recent content in Pages on Questbook | Operating Environment for embedded devices</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 11 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.questbook.quest/en/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>System Requirements for Questbook Embedded</title>
+      <link>https://www.questbook.quest/en/page/system-requirements/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.questbook.quest/en/page/system-requirements/</guid>
+      <description>How much RAM will I need? In order to run Questbook, your system must have atleast 512MB or 1GB of system memory.
+How much storage do I need? Your device must have 5GB of free storage or 10GB for more expansion.
+What is the recommended screen size? The recommended screen size is 1024 x 768 or higher. For devices with smaller screens will be 800 x 800 in the 4:3 aspect ratio.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://www.questbook.quest/en/page/about/</link>
+      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.questbook.quest/en/page/about/</guid>
+      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0.Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Hugo makes use of a variety of open source projects including:
+https://github.com/yuin/goldmarkhttps://github.</description>
+    </item>
+    
+  </channel>
+</rss>
