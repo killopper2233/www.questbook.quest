@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Questbook | Operating Environment for embedded devices</title>
-    <link>https://www.questbook.quest/en/</link>
+    <link>https://killopper2233.github.io/www.questbook.quest/en/</link>
     <description>Recent content on Questbook | Operating Environment for embedded devices</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.questbook.quest/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://killopper2233.github.io/www.questbook.quest/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google Material themed wallpapers are being added to Questbook Embedded.</title>
-      <link>https://www.questbook.quest/en/blog/google-material-themed-wallpapers-are-being-added-to-questbook/</link>
+      <link>https://killopper2233.github.io/www.questbook.quest/en/blog/google-material-themed-wallpapers-are-being-added-to-questbook/</link>
       <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.questbook.quest/en/blog/google-material-themed-wallpapers-are-being-added-to-questbook/</guid>
+      <guid>https://killopper2233.github.io/www.questbook.quest/en/blog/google-material-themed-wallpapers-are-being-added-to-questbook/</guid>
       <description>&lt;p&gt;Hello, I just wanted to make a quick blog post about the project (mainly the UI). In my last post I stated that MetroUI 4 was being replaced with Bootstrap 5. As apart of those changes; I have created new wallpapers for the project (to give the &amp;lsquo;Tablet UI&amp;rsquo; something unique).&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>System Requirements for Questbook Embedded</title>
-      <link>https://www.questbook.quest/en/page/system-requirements/</link>
+      <link>https://killopper2233.github.io/www.questbook.quest/en/page/system-requirements/</link>
       <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.questbook.quest/en/page/system-requirements/</guid>
+      <guid>https://killopper2233.github.io/www.questbook.quest/en/page/system-requirements/</guid>
       <description>How much RAM will I need? In order to run Questbook, your system must have atleast 512MB or 1GB of system memory.
 How much storage do I need? Your device must have 5GB of free storage or 10GB for more expansion.
 What is the recommended screen size? The recommended screen size is 1024 x 768 or higher. For devices with smaller screens will be 800 x 800 in the 4:3 aspect ratio.</description>
@@ -29,10 +29,10 @@ What is the recommended screen size? The recommended screen size is 1024 x 768 o
     
     <item>
       <title>Changing the User Inteface from MetroUI 4 to Bootstrap 5.</title>
-      <link>https://www.questbook.quest/en/blog/changing-the-user-interface/</link>
+      <link>https://killopper2233.github.io/www.questbook.quest/en/blog/changing-the-user-interface/</link>
       <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.questbook.quest/en/blog/changing-the-user-interface/</guid>
+      <guid>https://killopper2233.github.io/www.questbook.quest/en/blog/changing-the-user-interface/</guid>
       <description>Hello, as you may know, the project has went through a &amp;lsquo;development reset&amp;rsquo; as I did not like the way how Questbook went.
 MetroUI 4 was clunky and outdated (latest release was from 2017 and had some CSS / Javascript issues). So, I decided to scrap the start menu idea and went with something that wasn&amp;rsquo;t too messy, witch is why Bootstrap 5 is being used.
 However, you can still add the start menu just by creating a custom HTML file and re-routing the file to appear above the default homescreen, again.</description>
@@ -40,10 +40,10 @@ However, you can still add the start menu just by creating a custom HTML file an
     
     <item>
       <title>About Me</title>
-      <link>https://www.questbook.quest/en/page/about/</link>
+      <link>https://killopper2233.github.io/www.questbook.quest/en/page/about/</link>
       <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.questbook.quest/en/page/about/</guid>
+      <guid>https://killopper2233.github.io/www.questbook.quest/en/page/about/</guid>
       <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0.Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 Hugo makes use of a variety of open source projects including:
 https://github.com/yuin/goldmarkhttps://github.</description>

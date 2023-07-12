@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>developer-news on Questbook | Operating Environment for embedded devices</title>
-    <link>https://www.questbook.quest/en/tags/developer-news/</link>
+    <link>https://killopper2233.github.io/www.questbook.quest/en/tags/developer-news/</link>
     <description>Recent content in developer-news on Questbook | Operating Environment for embedded devices</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.questbook.quest/en/tags/developer-news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://killopper2233.github.io/www.questbook.quest/en/tags/developer-news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Changing the User Inteface from MetroUI 4 to Bootstrap 5.</title>
-      <link>https://www.questbook.quest/en/blog/changing-the-user-interface/</link>
+      <link>https://killopper2233.github.io/www.questbook.quest/en/blog/changing-the-user-interface/</link>
       <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.questbook.quest/en/blog/changing-the-user-interface/</guid>
+      <guid>https://killopper2233.github.io/www.questbook.quest/en/blog/changing-the-user-interface/</guid>
       <description>Hello, as you may know, the project has went through a &amp;lsquo;development reset&amp;rsquo; as I did not like the way how Questbook went.
 MetroUI 4 was clunky and outdated (latest release was from 2017 and had some CSS / Javascript issues). So, I decided to scrap the start menu idea and went with something that wasn&amp;rsquo;t too messy, witch is why Bootstrap 5 is being used.
 However, you can still add the start menu just by creating a custom HTML file and re-routing the file to appear above the default homescreen, again.</description>
