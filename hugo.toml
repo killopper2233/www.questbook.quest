@@ -1,4 +1,4 @@
-baseURL = 'https://www.questbook.quest'
+baseURL = 'https://questbook.quest'
 languageCode = 'en-us'
 title = 'Questbook | Operating Environment for embedded devices'
 description = "Questbook is a operating environment for embedded devices powered by HTML5 and Javascript technologies."
